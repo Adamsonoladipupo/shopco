@@ -1,0 +1,27 @@
+:root {
+    --gray_col: #F0F0F0;
+    --gray_col_60: #4f4f4f;
+}
+*{
+    font-family: "Inter Tight", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+a{
+    text-decoration: none;
+}
+    .menu_container{
+        display: flex;
+        flex-direction: column;
+        background-color: #ffffff;
+        width: 100%;
+        position: relative;
+        z-index: 10;
+    }
+    .mobile_menu ul li{
+        list-style: none;
+        padding: 10px 0px;
+    }
+        .mobile_menu ul li a{
+        color: #000000;
+    }

@@ -1,0 +1,68 @@
+
+
+:root {
+    --gray_col: #F0F0F0;
+    --gray_col_20: #c3c3c3;
+    --gray_col_40: #a1a1a1;
+    --gray_col_60: #4f4f4f;
+}
+*{
+    font-family: "Inter Tight", sans-serif;
+    font-style: normal;
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box ;
+}
+.main_container{
+    padding: 20px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.main_container h2{
+    font-size: 48px;
+    font-weight: bolder;
+    padding-bottom: 20px;
+}
+.main_container .new_arrivals{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: space-between;
+    margin: 20px 0px;
+    gap: 12px;
+}
+.main_container .new_arrivals .arrival {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+}
+.main_container .new_arrivals .arrival .clothe_image{
+    width: 300px;
+    height: 300px;
+    background-color: var(--gray_col);
+    border-radius: 20px
+}
+.main_container .new_arrivals .arrival h3{
+    font-size: 20px;
+    font-weight: normal;
+    width: 250px;
+}
+.price {
+    font-size: 24px;
+    font-weight: bold;
+}
+.main_container button {
+    background-color: #ffffff;
+    padding: 10px 55px;
+    border: none;
+    outline: 0.5px solid var(--gray_col_20);
+    color: #000000;
+    border-radius: 50px;
+}
+.main_container button:hover {
+    background-color: var(--gray_col);
+}
