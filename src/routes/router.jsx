@@ -64,10 +64,10 @@ const router = createBrowserRouter([
         path: "/productdetails",
         element: <ProductDetails/>
     }
-],
-{
-    basename: "/shopco"
-}
+]
+// ,{
+//     basename: "/shopco"
+// }
 )
 
 export default router
