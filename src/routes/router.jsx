@@ -1,4 +1,4 @@
-import {createBrowserRouter} from "react-router"
+import {createBrowserRouter} from "react-router-dom";
 import NavBar from "../component/navbar/NavBar"
 import LandingPage from "../component/pages/LandingPage"
 import Footer from "../component/footer/Footer"
@@ -9,6 +9,7 @@ import HappyCustomers from "../component/happyCustomers/HappyCustomers"
 import NewArrivals from "../component/newArrivals/NewArrivals"
 import TopSelling from "../component/topSelling/TopSelling"
 import BrowseByStyle from "../component/browseByStyle/BrowseByStyle"
+import ProductDetails from "../component/pages/ProductDetails"
 
 const router = createBrowserRouter([
     {
@@ -24,7 +25,7 @@ const router = createBrowserRouter([
         element: <LandingPage/>
     },
     {
-        path:"landingpage",
+        path:"/landingpage",
         element: <LandingPage/>
     },
     {
@@ -58,7 +59,15 @@ const router = createBrowserRouter([
     {
         path: "/browsebystyle",
         element: <BrowseByStyle/>
+    },
+    {
+        path: "/productdetails",
+        element: <ProductDetails/>
     }
-])
+],
+{
+    basename: "/shopco"
+}
+)
 
 export default router

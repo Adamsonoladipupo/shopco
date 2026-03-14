@@ -37,9 +37,6 @@ const LandingPage =() =>{
             <div>
                 <BrowseByStyle/>
             </div>
-            {/* <div>
-                <Products/>
-            </div> */}
             <div>
                 <HappyCustomers/>
             </div>
