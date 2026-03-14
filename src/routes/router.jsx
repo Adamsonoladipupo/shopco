@@ -20,6 +20,10 @@ const router = createBrowserRouter([
         element:<LandingPage/>
     },
     {
+        path: "/shopco",
+        element: <LandingPage/>
+    },
+    {
         path:"landingpage",
         element: <LandingPage/>
     },
