@@ -1,5 +1,6 @@
 import styles from "../heroSection/heroSection.module.css"
 import images from "../../assets/images";
+import { Link } from "react-router";
 
 const HeroSection = () => {
     return(
@@ -8,7 +9,7 @@ const HeroSection = () => {
                 <div className={styles.hero_left}>
                     <h1>FIND CLOTHES THAT MATCHES YOUR STYLE</h1>
                     <p>Browse through our diverse range of meticulously crafted garments, designed to bring out your individuality and cater to your sense of style.</p>
-                    <button>Shop Now</button>
+                    <Link to="/register"><button>Shop Now</button></Link>
                     <div className={styles.hero_analysis}>
                         <span>
                             <h2>200+</h2>

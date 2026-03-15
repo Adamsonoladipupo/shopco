@@ -10,6 +10,8 @@ import NewArrivals from "../component/newArrivals/NewArrivals"
 import TopSelling from "../component/topSelling/TopSelling"
 import BrowseByStyle from "../component/browseByStyle/BrowseByStyle"
 import ProductDetails from "../component/pages/ProductDetails"
+import Registration from "../component/pages/Registration";
+import Login from "../component/pages/Login";
 
 const router = createBrowserRouter([
     {
@@ -63,11 +65,19 @@ const router = createBrowserRouter([
     {
         path: "/productdetails",
         element: <ProductDetails/>
+    },
+    {
+        path: "/register",
+        element: <Registration/>
+    },
+    {
+        path: "/login",
+        element: <Login/>
     }
 ]
-// ,{
-//     basename: "/shopco"
-// }
+,{
+    basename: "/shopco"
+}
 )
 
 export default router

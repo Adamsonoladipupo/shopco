@@ -12,6 +12,7 @@ import TopSelling from "../topSelling/TopSelling";
 import BrowseByStyle from "../browseByStyle/BrowseByStyle";
 
 
+
 const LandingPage =() =>{
     return(
         <>
