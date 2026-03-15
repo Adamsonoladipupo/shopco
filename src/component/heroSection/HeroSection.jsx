@@ -9,7 +9,8 @@ const HeroSection = () => {
                 <div className={styles.hero_left}>
                     <h1>FIND CLOTHES THAT MATCHES YOUR STYLE</h1>
                     <p>Browse through our diverse range of meticulously crafted garments, designed to bring out your individuality and cater to your sense of style.</p>
-                    <Link to="/register"><button>Shop Now</button></Link>
+                    <button><Link to="/register">Shop Now</Link></button>
+                    
                     <div className={styles.hero_analysis}>
                         <span>
                             <h2>200+</h2>
