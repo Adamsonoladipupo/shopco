@@ -75,9 +75,9 @@ const router = createBrowserRouter([
         element: <Login/>
     }
 ]
-,{
-    basename: "/shopco"
-}
+// ,{
+//     basename: "/shopco"
+// }
 )
 
 export default router

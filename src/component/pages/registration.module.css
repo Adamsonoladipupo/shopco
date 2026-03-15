@@ -20,10 +20,19 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 20px;
+}
+.main_container .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:  500px;
+}
+.main_container .header img{
+    width: 100px;
 }
 .main_container h1{
-    font-size: 32px;
-    margin: 20px 0px;
+    font-size: 24px;
 }
 .main_container .form {
     display: flex;
@@ -32,7 +41,7 @@ a {
     padding: 30px;
     border-radius: 20px;
     margin: 20px 0px;
-    width: 500px;
+    max-width: 500px;
 }
 .main_container .form span {
     font-size: 14px;
@@ -70,5 +79,8 @@ a {
     }
     .main_container .form {
         min-width: 100%;
+    }
+    .main_container .header {
+        width:  100%;
     }
 }

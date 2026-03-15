@@ -1,12 +1,16 @@
 import React from "react";
 import styles from "../pages/registration.module.css"
 import { Link } from "react-router";
+import images from "../../assets/images";
 
 const Registration = () => {
     return(
         <>
             <div className={styles.main_container}>
-                <h1>Registration Page</h1>
+                <div className={styles.header}>
+                    <Link to="/"><img src={images.logo} alt="Logo" /></Link>
+                    <h1>Login</h1>
+                </div>
                 <div className={styles.form}>
                     <form action="">
                         <span>
