@@ -15,7 +15,7 @@ a {
     text-decoration: none;
 }
 a:visited {
-    color: #ffffff;
+    color: inherit;
 }
 .main_container {
     padding: 0px 100px;
